@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-
-
-        .content1 {
-            background-color: violet ;
-        }
-
-        .content{
-            border: solid 5px  black;
-            padding: 50px;
-            width:20%;
-   
-            background-color:yellow
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vidhi's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="./index.css" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
     <div class="main-container">
-        <div  id="text1" class="content content1">
-            HEllo World!!
+        <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Vidhi Mittal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NavBar Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Brief Intro</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Educational</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">AboutMe </a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="first-container">
+            <p>VIDHI'sWEBSITE</p>
         </div>
-
     </div>
+        <div class="second-container">
+
+        </div>
+    
 </body>
 </html>
