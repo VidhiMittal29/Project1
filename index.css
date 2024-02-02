@@ -2,13 +2,13 @@
     overflow-x: hidden;
    width: 100%;
    height: 100%;
-    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/98/73/front-end-development-it-web-banner-concept-vector-24929873.jpg");
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/24028a182993783.6537cd413c12c.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .navbar{
-    background-color: #7d6683 !important;
+    background-color:  #e9baf7 !important;
     padding: 1%;
     z-index: 100;
     position:fixed;
@@ -16,7 +16,7 @@
     width: 100%;
 }
 .navbar-brand {
-    color: aliceblue;
+    color: rgb(41, 9, 35);
     font-size: 100%;
 }
 .first-container{
@@ -24,18 +24,48 @@
     height: 100vh;
     z-index: 0;
 }
-p{
+.first-container>p{
     font-size:9vw;
     position: relative;
-    top:50%;
-    color: #5d325b;
+    top:73%;
+    color: #ffffff;
     font-weight: bold;
     font-family: Inter-regular;
-    background-color: #d4c1d362;
+    background-color: #7b1c7647;
     text-align: center;
 }
 .second-container{
     height: 100vh;
     width: 100%;
-    background-color: wheat;
+    background-color: #f7d1f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#circle-container{
+    height:55%;
+    width: 19%;
+}
+.circle1{
+    height:95%;
+    width: 100%;
+    border-radius: 50%;
+    background:#2b2529e3;
+    transform: rotate(-37deg);
+    margin: auto;
+    border: black 3px solid;
+}
+.circle2{
+    height:90%;
+    width: 100%;
+    border-radius: 50%;
+    border: black 3px solid;
+    transform: rotate(55deg);
+    margin: auto;
+    position: relative;
+    top:5%;
+    left:30%;
+    background-image: url(./WhatsApp\ Image\ 2024-02-02\ at\ 13.19.02_03bac15a.jpg);
+    background-position-x: 20%;
+    background-position-y: 45%;
 }
